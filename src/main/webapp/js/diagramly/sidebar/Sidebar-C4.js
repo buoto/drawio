@@ -61,7 +61,7 @@
 		    	bg.setValue(mxUtils.createXmlDocument().createElement('object'));
 		    	bg.setAttribute('placeholders', '1');
 		        bg.setAttribute('c4Name', 'name');
-		        bg.setAttribute('c4Type', 'Component');
+		        bg.setAttribute('c4Type', 'Container');
 		        bg.setAttribute('c4Technology', 'technology');
 		        bg.setAttribute('c4Description', 'Description');
 		    	bg.setAttribute('label', '<b>%c4Name%</b><div>[%c4Type%: %c4Technology%]</div><br><div>%c4Description%</div>');
@@ -76,7 +76,7 @@
 		    	bg.setValue(mxUtils.createXmlDocument().createElement('object'));
 		    	bg.setAttribute('placeholders', '1');
 		        bg.setAttribute('c4Name', 'name');
-		        bg.setAttribute('c4Type', 'Container');
+		        bg.setAttribute('c4Type', 'Component');
 		        bg.setAttribute('c4Technology', 'technology');
 		        bg.setAttribute('c4Description', 'Description');
 		    	bg.setAttribute('label', '<b>%c4Name%</b><div>[%c4Type%: %c4Technology%]</div><br><div>%c4Description%</div>');
